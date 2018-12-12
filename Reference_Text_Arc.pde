@@ -1,12 +1,7 @@
 void setup() {
   size(500,500);
   textAlign(CENTER);
-
-
-}
-void draw(){
-  background(random(150));
-
+background(random(150));
   textSize(80);
   frameRate(10);
   fill(176,224,230);
@@ -18,6 +13,8 @@ void draw(){
   text("Really, I am", 250,350);
   fill(240,230,140);
   text("live  Oil",250,450);
+}
+void draw(){
   fill(random(255), random(255), random(255), random(255));
   arc(mouseX, mouseY, (70), (80), radians(0), radians(360));
-}}
+}
