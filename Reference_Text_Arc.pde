@@ -6,7 +6,7 @@ void setup() {
 }
 void draw(){
   background(random(150));
-  
+  }
   textSize(80);
   frameRate(10);
   fill(176,224,230);
