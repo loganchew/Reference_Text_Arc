@@ -6,7 +6,7 @@ void setup() {
 }
 void draw(){
   background(random(150));
-  }
+
   textSize(80);
   frameRate(10);
   fill(176,224,230);
@@ -20,3 +20,4 @@ void draw(){
   text("live  Oil",250,450);
   fill(random(255), random(255), random(255), random(255));
   arc(mouseX, mouseY, (70), (80), radians(0), radians(360));
+}
